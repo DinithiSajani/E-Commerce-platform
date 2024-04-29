@@ -9,6 +9,7 @@
 </head>
 <body>
 <div style="color: white; text-align: center; font-size: 30px;">About <i class="fa fa-address-book"></i></div>
+<<<<<<< HEAD
 <div style="background-color: white; padding:35px; font-size: 30px;"></div>
 HeartFeltHub
 <br>
@@ -29,6 +30,30 @@ At HeartFeltHub, we're not just a gift shop; we're a destination for meaningful
 connections and genuine expressions of care. Let us be your partner in spreading 
 joy and making every moment memorable. Explore our collection today and discover 
 the magic of heartfelt giving."
+=======
+<div style="background-color: white; padding:35px; font-size: 30px;">
+BTech Days
+<br>
+Hey everyone!!
+<br>
+I make free programming tutorials for beginners.
+& PROJECT videos with source code.
+That include Java for beginners,c# (Dot net tutorial), JFrame,JDBC,Jsp,etc
+<br>
+We make videos of :-
+DBMS
+COMPUTER NETWORKING 
+BPM
+OS, etc
+So kindly subscribe our channel.
+<br>
+Contact us at :- btechdays.care@gmail.com
+<br>
+or
+<br>
+contact us at instagram :- btechdays
+</div>
+>>>>>>> main
 
 </body>
 </html>

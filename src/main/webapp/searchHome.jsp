@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 <%@page import="Project.ConnectionProvider"%>
 <%@page import="java.sql.*"%>
 <%@include file="header.jsp" %>
 <%@include file="footer.jsp" %>
+=======
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+>>>>>>> main
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -20,6 +24,7 @@
           </tr>
         </thead>
         <tbody>
+<<<<<<< HEAD
                 
 <%
 int z=0;
@@ -56,6 +61,22 @@ catch(Exception e)
       <%if(z==0){ %>	
 	<h1 style="color:white; text-align: center;">Nothing to show</h1>
 	<%} %>
+=======
+
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><i class="fa fa-inr"></i> </i></td>
+            <td><a href="">Add to cart <i class='fas fa-cart-plus'></i></a></td>
+          </tr>
+         
+        </tbody>
+      </table>
+      	
+	<h1 style="color:white; text-align: center;">Nothing to show</h1>
+	
+>>>>>>> main
       <br>
       <br>
       <br>

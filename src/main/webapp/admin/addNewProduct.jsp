@@ -1,13 +1,18 @@
+<<<<<<< HEAD
 <%@page import="Project.ConnectionProvider"%>
 <%@page import="java.sql.*"%>
 <%@include file="adminHeader.jsp" %>
 <%@include file="../footer.jsp" %>
+=======
+
+>>>>>>> main
 <html>
 <head>
 <link rel="stylesheet" href="../css/addNewProduct-style.css">
 <title>Add New Product</title>
 </head>
 <body>
+<<<<<<< HEAD
 <%
 String msg=request.getParameter("msg");
 if("done".equals(msg))
@@ -46,26 +51,46 @@ catch(Exception e)
 <div class="left-div">
  <h3>Enter Name</h3>
  <input class="input.style" type="text" name="name" placeholder="Enter Name" required>
+=======
+
+<h3 class="alert">Product Added Successfully!</h3>
+
+<h3 class="alert">Some thing went wrong! Try Again!</h3>
+
+
+<h3 style="color: yellow;">Product ID: </h3>
+
+
+<div class="left-div">
+ <h3>Enter Name</h3>
+>>>>>>> main
  
 <hr>
 </div>
 
 <div class="right-div">
 <h3>Enter Category</h3>
+<<<<<<< HEAD
   <input class="input.style" type="text" name="category" placeholder="Enter category" required>
+=======
+>>>>>>> main
  
 <hr>
 </div>
 
 <div class="left-div">
 <h3>Enter Price</h3>
+<<<<<<< HEAD
   <input class="input.style" type="number" name="price" placeholder="Enter price" required>
+=======
+>>>>>>> main
  
 <hr>
 </div>
 
 <div class="right-div">
 <h3>Active</h3>
+<<<<<<< HEAD
    <select class="input.style" name="active">
    <option value="Yes">Yes</option>
    <option value="No">No</option>
@@ -74,6 +99,13 @@ catch(Exception e)
 </div>
 <button class="button">Save  <i class='far fa-arrow-alt-circle-right'></i></button>
 </form>
+=======
+   
+<hr>
+</div>
+ <i class='far fa-arrow-alt-circle-right'></i>
+
+>>>>>>> main
 </body>
 <br><br><br>
 </body>

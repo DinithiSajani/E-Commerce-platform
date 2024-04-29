@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 <%@page import="Project.ConnectionProvider"%>
 <%@page import="java.sql.*"%>
 <%@include file="adminHeader.jsp" %>
 <%@include file="../footer.jsp" %>
+=======
+
+>>>>>>> main
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -17,6 +21,7 @@ h3
 </head>
 <body>
 <div style="color: white; text-align: center; font-size: 30px;">All Products & Edit Products <i class='fab fa-elementor'></i></div>
+<<<<<<< HEAD
 <%
 String msg=request.getParameter("msg");
 if("done".equals(msg))
@@ -31,6 +36,13 @@ if("wrong".equals(msg))
 %>
 <h3 class="alert">Some thing went wrong! Try again!</h3>
 <%} %>
+=======
+
+<h3 class="alert">Product Successfully Updated!</h3>
+
+<h3 class="alert">Some thing went wrong! Try again!</h3>
+
+>>>>>>> main
 <table>
         <thead>
           <tr>
@@ -43,6 +55,7 @@ if("wrong".equals(msg))
           </tr>
         </thead>
         <tbody>
+<<<<<<< HEAD
        <%
        try{
     	   Connection con=ConnectionProvider.getCon();
@@ -69,6 +82,18 @@ if("wrong".equals(msg))
        }
          
          %>
+=======
+       
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><i class="fa fa-inr"></i> </i></td>
+            <td></td>
+            <td><a href="">Edit <i class='fas fa-pen-fancy'></i></a></td>
+          </tr>
+         
+>>>>>>> main
         </tbody>
       </table>
       <br>

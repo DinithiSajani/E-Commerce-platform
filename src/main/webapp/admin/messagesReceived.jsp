@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 <%@page import="Project.ConnectionProvider"%>
 <%@page import="java.sql.*"%>
 <%@include file="adminHeader.jsp" %>
 <%@include file="../footer.jsp" %>
+=======
+
+>>>>>>> main
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -27,6 +31,7 @@ h3
           </tr>
         </thead>
         <tbody>
+<<<<<<< HEAD
        <%
        try
        {
@@ -50,6 +55,16 @@ h3
        {
     	   System.out.println(e);
        }%>
+=======
+       
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+         
+>>>>>>> main
         </tbody>
       </table>
       <br>

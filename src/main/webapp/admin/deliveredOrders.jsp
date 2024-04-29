@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 <%@page import="Project.ConnectionProvider"%>
 <%@page import="java.sql.*"%>
 <%@include file="adminHeader.jsp" %>
 <%@include file="../footer.jsp" %>
+=======
+
+>>>>>>> main
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -15,6 +19,16 @@
 <body>
 <div style="color: white; text-align: center; font-size: 30px;">Delivered Orders <i class='fas fa-dolly'></i></div>
 
+<<<<<<< HEAD
+=======
+<h3 class="alert">Order Cancel Successfully!</h3>
+
+<h3 class="alert">Successfully Updated!</h3>
+
+<h3 class="alert">Some thing went wrong! Try Again!</h3>
+
+
+>>>>>>> main
 <table id="customers">
           <tr>
           <th>Mobile Number</th>
@@ -31,6 +45,7 @@
               <th scope="col">T-ID</th>
               <th scope="col">Status</th>
           </tr>
+<<<<<<< HEAD
           <%
           try
           {
@@ -67,6 +82,25 @@
           }
               
               %>
+=======
+        
+        
+          <tr>
+          <td></td>
+            <td></td>
+            <td></td>
+            <td><i class="fa fa-inr"></i>  </td>
+                <td></td>
+               <td></td>
+                <td></td>
+                 <td></td>
+             <td></td>
+              <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+              </tr>
+>>>>>>> main
          
         </table>
       <br>

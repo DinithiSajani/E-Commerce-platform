@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 <%@page import="Project.ConnectionProvider"%>
 <%@page import="java.sql.*"%>
 <%@include file="header.jsp" %>
 <%@include file="footer.jsp" %>
+=======
+>>>>>>> main
 <html>
 <head>
 <link rel="stylesheet" href="css/messageUs.css">
@@ -10,6 +13,7 @@
 </head>
 <body>
 <div style="color: white; text-align: center; font-size: 30px;">Message Us <i class='fas fa-comment-alt'></i></div>
+<<<<<<< HEAD
 <%
 String msg=request.getParameter("msg");
 if("valid".equals(msg))
@@ -30,6 +34,14 @@ if("invalid".equals(msg))
 <hr>
 <button class="button" type="submit">Send<i class="far fa-arrow-alt-circle.right"><?</i></button>
 </form>
+=======
+
+<h3 style="text-align:center; color:yellow;">Message successfully sent. Our team will contact you soon!</h3>
+
+<h3 style="text-align:center; ">Some thing Went Wrong! Try Again!</h3>
+
+
+>>>>>>> main
 <br><br><br>
 </body>
 </html>
