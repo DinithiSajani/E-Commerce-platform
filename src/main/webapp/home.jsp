@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <%@page import="Project.ConnectionProvider"%>
 <%@page import="java.sql.*"%>
 <%@include file="header.jsp" %>
@@ -6,6 +7,9 @@
 =======
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 >>>>>>> main
+=======
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+>>>>>>> Dinithi
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -20,6 +24,7 @@ h3
 </head>
 <body>
 <div style="color: white; text-align: center; font-size: 30px;">Home <i class="fa fa-institution"></i></div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <%
 String msg=request.getParameter("msg");
@@ -41,6 +46,8 @@ if("invalid",equals(msg))
 <h3 class="alert">Some thing wet wrong! Try Again!!</h3>
 <%} %>
 =======
+=======
+>>>>>>> Dinithi
 
 <h3 class="alert">Product added successfully!</h3>
 
@@ -48,7 +55,10 @@ if("invalid",equals(msg))
 
 <h3 class="alert">Password change successfully!</h3>
 
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
 <table>
         <thead>
           <tr>
@@ -60,6 +70,7 @@ if("invalid",equals(msg))
           </tr>
         </thead>
         <tbody>
+<<<<<<< HEAD
 <<<<<<< HEAD
         
 <%
@@ -88,6 +99,8 @@ catch(Exception e)
 }
 %>
 =======
+=======
+>>>>>>> Dinithi
 
           <tr>
             <td></td>
@@ -97,7 +110,10 @@ catch(Exception e)
             <td><a href="">Add to cart <i class='fas fa-cart-plus'></i></a></td>
           </tr>
 
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
         </tbody>
       </table>
       <br>

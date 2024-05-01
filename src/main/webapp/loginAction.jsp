@@ -1,10 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Dinithi
 <%@page import="Project.ConnectionProvider"%>
 <%@page import="java.sql.*"%>
 <%
 String email=request.getParameter("email");
 String password=request.getParameter("password");
+<<<<<<< HEAD
 if("admin@gmail.com".equas(email) && "admin".equals(password))
+=======
+if ("admin@gmail.com".equals(email) && "admin".equals(password))
+>>>>>>> Dinithi
 {
 	session.setAttribute("email",email);
 	response.sendRedirect("admin/adminHome.jsp");
@@ -16,7 +23,11 @@ else
 	{
 		Connection con=ConnectionProvider.getCon();
 		Statement st=con.createStatement();
+<<<<<<< HEAD
 		ResultSet rs=st.executeQuery("select *from users where email='"+email+"'and password='"+password+"');
+=======
+		ResultSet rs = st.executeQuery("SELECT * FROM users WHERE email='" + email + "' AND password='" + password + "'");
+>>>>>>> Dinithi
 		while(rs.next())
 		{
 			z=1;
@@ -32,6 +43,7 @@ else
 		response.sendRedirect("login.jsp?msg=invalid");
 	}
 }
+<<<<<<< HEAD
 %>
 =======
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
@@ -47,3 +59,6 @@ else
 </body>
 </html>
 >>>>>>> main
+=======
+%>
+>>>>>>> Dinithi

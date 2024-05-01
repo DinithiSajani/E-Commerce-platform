@@ -1,7 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> main
+=======
+
+>>>>>>> Dinithi
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,6 +15,7 @@
 <body>
 <div id='container'>
   <div class='signup'>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <form action="SignupAction.jsp" method="post">
   <input type="text" name="name" placeholder="Enter Name" required>
@@ -45,6 +50,8 @@ if("invalid".equals(msg))
 <h1>Some thing Went Wrong! Try Again !</h1>
 <%} %>
 =======
+=======
+>>>>>>> Dinithi
   <form action="" method="post">
   <input type="text" name="name" placeholder="Enter Name" required>
   <input type="email" name="email" placeholder="Enter Email" required>
@@ -68,7 +75,10 @@ if("invalid".equals(msg))
 
 
 <h1>Some thing Went Wrong! Try Again !</h1>
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
 
     <h2>Online Shopping</h2>
     <p>The Online Shopping System is the application that allows the users to shop online without going to the shops to buy them.</p>

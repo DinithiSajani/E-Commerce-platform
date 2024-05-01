@@ -1,10 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Dinithi
 <%@page import="Project.ConnectionProvider"%>
 <%@page import="java.sql.*"%>
 <%@include file="header.jsp" %>
 <%@include file="footer.jsp" %>
+<<<<<<< HEAD
 =======
 >>>>>>> main
+=======
+>>>>>>> Dinithi
 <html>
 <head>
 <link rel="stylesheet" href="css/messageUs.css">
@@ -14,6 +20,9 @@
 <body>
 <div style="color: white; text-align: center; font-size: 30px;">Message Us <i class='fas fa-comment-alt'></i></div>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Dinithi
 <%
 String msg=request.getParameter("msg");
 if("valid".equals(msg))
@@ -34,6 +43,7 @@ if("invalid".equals(msg))
 <hr>
 <button class="button" type="submit">Send<i class="far fa-arrow-alt-circle.right"><?</i></button>
 </form>
+<<<<<<< HEAD
 =======
 
 <h3 style="text-align:center; color:yellow;">Message successfully sent. Our team will contact you soon!</h3>
@@ -42,6 +52,8 @@ if("invalid".equals(msg))
 
 
 >>>>>>> main
+=======
+>>>>>>> Dinithi
 <br><br><br>
 </body>
 </html>

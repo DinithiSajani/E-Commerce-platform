@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <%@page import="Project.ConnectionProvider"%>
 <%@page import="java.sql.*"%>
 <%@include file="adminHeader.jsp" %>
@@ -6,6 +7,9 @@
 =======
 
 >>>>>>> main
+=======
+
+>>>>>>> Dinithi
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -18,6 +22,7 @@
 </head>
 <body>
 <div style="color: white; text-align: center; font-size: 30px;">Orders Received <i class="fas fa-archive"></i></div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <%
 String msh=request.getParameter("msg");
@@ -42,6 +47,8 @@ if("invalid".equals(msg))
 <h3 class="alert">Some thing went wrong! Try Again!</h3>
 <%} %>
 =======
+=======
+>>>>>>> Dinithi
 
 <h3 class="alert">Order Cancel Successfully!</h3>
 
@@ -49,7 +56,10 @@ if("invalid".equals(msg))
 
 <h3 class="alert">Some thing went wrong! Try Again!</h3>
 
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
 
 <table id="customers">
           <tr>
@@ -69,6 +79,7 @@ if("invalid".equals(msg))
               <th scope="col">Cancel order <i class='fas fa-window-close'></i></th>
               <th scope="col">Order Delivered <i class='fas fa-dolly'></i></i></th>
           </tr>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <%
     
@@ -104,6 +115,8 @@ if("invalid".equals(msg))
     catch(Exception e)
     {}%>
 =======
+=======
+>>>>>>> Dinithi
         
        
           <tr>
@@ -124,7 +137,10 @@ if("invalid".equals(msg))
                 <td><a href="">Delivered <i class='fas fa-dolly'></i></i></a></td>
             </tr>
          
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
         </table>
       <br>
       <br>

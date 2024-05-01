@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <%@page import="Project.ConnectionProvider"%>
 <%@page import="java.sql.*"%>
 <%@include file="adminHeader.jsp" %>
@@ -6,6 +7,9 @@
 =======
 
 >>>>>>> main
+=======
+
+>>>>>>> Dinithi
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -20,7 +24,10 @@
 <div style="color: white; text-align: center; font-size: 30px;">Delivered Orders <i class='fas fa-dolly'></i></div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> Dinithi
 <h3 class="alert">Order Cancel Successfully!</h3>
 
 <h3 class="alert">Successfully Updated!</h3>
@@ -28,7 +35,10 @@
 <h3 class="alert">Some thing went wrong! Try Again!</h3>
 
 
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
 <table id="customers">
           <tr>
           <th>Mobile Number</th>
@@ -45,6 +55,7 @@
               <th scope="col">T-ID</th>
               <th scope="col">Status</th>
           </tr>
+<<<<<<< HEAD
 <<<<<<< HEAD
           <%
           try
@@ -83,6 +94,8 @@
               
               %>
 =======
+=======
+>>>>>>> Dinithi
         
         
           <tr>
@@ -100,7 +113,10 @@
                <td></td>
                <td></td>
               </tr>
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
          
         </table>
       <br>

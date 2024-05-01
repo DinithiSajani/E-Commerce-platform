@@ -10,6 +10,7 @@
 <body>
 <div style="color: white; text-align: center; font-size: 30px;">About <i class="fa fa-address-book"></i></div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <div style="background-color: white; padding:35px; font-size: 30px;"></div>
 HeartFeltHub
 <br>
@@ -31,6 +32,8 @@ connections and genuine expressions of care. Let us be your partner in spreading
 joy and making every moment memorable. Explore our collection today and discover 
 the magic of heartfelt giving."
 =======
+=======
+>>>>>>> Dinithi
 <div style="background-color: white; padding:35px; font-size: 30px;">
 BTech Days
 <br>
@@ -53,7 +56,10 @@ or
 <br>
 contact us at instagram :- btechdays
 </div>
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
 
 </body>
 </html>

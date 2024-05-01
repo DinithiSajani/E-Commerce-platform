@@ -1,11 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Dinithi
 <%@page import="Project.ConnectionProvider"%>
 <%@page import="java.sql.*"%>
 <%@include file="header.jsp" %>
 <%@include file="footer.jsp" %>
+<<<<<<< HEAD
 =======
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 >>>>>>> main
+=======
+>>>>>>> Dinithi
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -25,6 +31,9 @@
         </thead>
         <tbody>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Dinithi
                 
 <%
 int z=0;
@@ -61,6 +70,7 @@ catch(Exception e)
       <%if(z==0){ %>	
 	<h1 style="color:white; text-align: center;">Nothing to show</h1>
 	<%} %>
+<<<<<<< HEAD
 =======
 
           <tr>
@@ -77,6 +87,8 @@ catch(Exception e)
 	<h1 style="color:white; text-align: center;">Nothing to show</h1>
 	
 >>>>>>> main
+=======
+>>>>>>> Dinithi
       <br>
       <br>
       <br>

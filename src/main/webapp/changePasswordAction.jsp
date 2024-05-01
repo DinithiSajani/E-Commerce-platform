@@ -15,11 +15,19 @@ try
 {
    Connection con=ConnectionProvider.getCon();
    Statement st=com.createStatement();
+<<<<<<< HEAD
    ResultSet rs=st.executeQuery("select*from users where email='"+email+"' and password='"+oldPassword+"');
 while(rs.next())
 {
 	check=1;
 	st.executeUpdate("update users set password='"+newPassword+"' where email='"+email+"');
+=======
+   ResultSet rs=st.executeQuery("select*from users where email='"+email+"' and password='"+oldPassword+"'");
+while(rs.next())
+{
+	check=1;
+	st.executeUpdate("update users set password='"+newPassword+"' where email='"+email+"'");
+>>>>>>> Dinithi
 	response.sendRedirect("changePassword.jsp?msg=done");
 }
 if (check==0)

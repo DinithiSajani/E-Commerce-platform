@@ -1,16 +1,23 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <%@page import="project.ConnectionProvider" %>
 <%@page import="java.sql.*" %>
 <%@include file="footer.jsp" %>
 >>>>>>> main
+=======
+<%@page import="project.ConnectionProvider" %>
+<%@page import="java.sql.*" %>
+<%@include file="footer.jsp" %>
+>>>>>>> Dinithi
 <html>
 <head>
 <link rel="stylesheet" href="css/bill.css">
 <title>Bill</title>
 </head>
 <body>
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <h3>Online shopping Bill (BTech Days)</h3>
@@ -33,12 +40,18 @@
 <hr>
 
 =======
+=======
+>>>>>>> Dinithi
 <%
 String email=session.getAttribute("email").toString();
 try
 {
 	int total=0;
+<<<<<<< HEAD
 	int=sno=0;
+=======
+	int.class=sno=0;
+>>>>>>> Dinithi
 	Connection con=ConnectionProvider.getCon();
 	Statements st=con.createStatement;
 	ResultSet rs=st.executeQuery("select sum(total) from cart where email='"+email+"' and status='bill'");
@@ -69,7 +82,10 @@ try
 
 <hr>
 <%break;} %>
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
 
 	
 	<br>
@@ -85,6 +101,7 @@ try
      <th>Sub Total</th>
   </tr>
 <<<<<<< HEAD
+<<<<<<< HEAD
   
   <tr>
     <td></td>
@@ -94,6 +111,8 @@ try
     <td></td>
      <td></td>
 =======
+=======
+>>>>>>> Dinithi
   <%
   ResultSet rs1=st.executeQuery("select *from cart inner join product where cart.product_id=product.id and cart.email='"+email+"' and cart.status='bill'");
   while(rs1.next())
@@ -107,11 +126,15 @@ try
     <td><%=rs1.getString(19) %></td>
     <td><%=rs1.getString(3) %></td>
      <td><%=rs1.getString(5) %></td>
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
   </tr>
   <tr>
 
 </table>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <h3>Total: </h3>
 <a href="continueShopping.jsp"><button class="button left-button">Continue Shopping</button></a>
@@ -119,16 +142,27 @@ try
 <br><br><br><br>
 
 =======
+=======
+>>>>>>> Dinithi
 <h3>Total:<%out.println(total); %> </h3>
 <a href="continueShopping.jsp"><button class="button left-button">Continue Shopping</button></a>
 <a onclick="window.print();"><button class="button right-button">Print</button></a>
 <br><br><br><br>
+<<<<<<< HEAD
 <%
 }
+=======
+<% 
+}}
+ 
+>>>>>>> Dinithi
 catch(Exception e)
 {
 System.out.println(e);	
 }%>
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
 </body>
 </html>

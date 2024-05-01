@@ -10,6 +10,7 @@
     <br>
     <div class="topnav sticky">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <%String email=session.getAttribute("email").toString(); %>
     
             <center><h2>HeartFeltHub</h2></center>
@@ -27,6 +28,8 @@
              <button type="submit"><i class="fa fa-search"></i></button>
              </form>
 =======
+=======
+>>>>>>> Dinithi
     
             <center><h2>Online shopping (BTech Days)</h2></center>
             <h2><a href=""> <i class='fas fa-user-alt'></i></a></h2>
@@ -42,7 +45,10 @@
                
                 <i class="fa fa-search"></i>
              
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
             </div>
           </div>
            <br>

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <%@page import="Project.ConnectionProvider"%>
 <%@page import="java.sql.*"%>
 <%@include file="adminHeader.jsp" %>
@@ -6,6 +7,9 @@
 =======
 
 >>>>>>> main
+=======
+
+>>>>>>> Dinithi
 <html>
 <head>
 <link rel="stylesheet" href="../css/addNewProduct-style.css">
@@ -20,6 +24,7 @@
 </head>
 <body>
  <h2><a class="back" href="allProductEditProduct.jsp"><i class='fas fa-arrow-circle-left'> Back</i></a></h2>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <%
 String id=request.getParameter("id");
@@ -37,12 +42,17 @@ try
  <h3>Enter Name</h3>
  <input class="input.style" type="text" name="name" value="<%=rs.getString(2) %>" required>
 =======
+=======
+>>>>>>> Dinithi
 
 
 
 <div class="left-div">
  <h3>Enter Name</h3>
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
 
 <hr>
 </div>
@@ -50,9 +60,12 @@ try
 <div class="right-div">
 <h3>Enter Category</h3>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <input class="input.style" type="text" name="category" value="<%=rs.getString(3) %>" required>
 =======
 >>>>>>> main
+=======
+>>>>>>> Dinithi
  
 <hr>
 </div>
@@ -60,15 +73,19 @@ try
 <div class="left-div">
 <h3>Enter Price</h3>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <input class="input.style" type="number" name="price" value="<%=rs.getString(4) %>" required>
 =======
 >>>>>>> main
+=======
+>>>>>>> Dinithi
  
 <hr>
 </div>
 
 <div class="right-div">
 <h3>Active</h3>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <select class="input.style" name="active">
 <option value="Yes">Yes</option>
@@ -86,13 +103,18 @@ catch(Exception e)
 	System.out.println(e);
 }%>
 =======
+=======
+>>>>>>> Dinithi
 
  <hr>
 </div>
  <i class='far fa-arrow-alt-circle-right'></i>
 
 
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
 
 </body>
 <br><br><br>

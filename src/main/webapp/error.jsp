@@ -23,9 +23,13 @@ color:white;}
 <h1>Some thing went Wrong!</h1>
 <h1>So go for login! Try again!</h1>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <h1><a href="login.jsp">login</a></h1>
 =======
 <h1><a href="">login</a></h1>
 >>>>>>> main
+=======
+<h1><a href="">login</a></h1>
+>>>>>>> Dinithi
 </body>
 </html>

@@ -1,11 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> Dinithi
 <%@page import="project.ConnectionProvider"%>
 <%@page import="java.sql.*" %>
 <%@include file="header.jsp" %>
 <%@include file="footer.jsp" %>
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
 <html>
 <head>
 <link rel="stylesheet" href="css/changeDetails.css">
@@ -13,6 +19,7 @@
 <title>Message Us</title>
 </head>
 <body>
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <h3 class="alert">New password and Confirm password does not match!</h3>
@@ -36,6 +43,8 @@
  <i class='far fa-arrow-alt-circle-right'></i>
 
 =======
+=======
+>>>>>>> Dinithi
 <%
 String msg=request.getParameter("msg");
 if("notMatch".equals(msg))
@@ -73,7 +82,10 @@ if("invalid".equals(msg))
 <hr>
  <button class="button" type="submit">Save<i class='far fa-arrow-alt-circle-right'></i></button>
 </form>
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
 </body>
 <br><br><br>
 </html>

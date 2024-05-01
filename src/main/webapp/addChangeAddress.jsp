@@ -1,15 +1,22 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> Dinithi
 <%@page import="project.ConnectionProvider"%>
 <%@page import="java.sql.*" %>
 <%@include file="header.jsp" %>
 <%@include file="footer.jsp" %>
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
 <html>
 <head>
 <link rel="stylesheet" href="css/changeDetails.css">
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <title>Message Us</title>
 </head>
@@ -38,6 +45,8 @@
 </body>
 <br><br><br>
 =======
+=======
+>>>>>>> Dinithi
 <title>Add or Change Address</title>
 </head>
 <body>
@@ -59,7 +68,11 @@ try
 {
 	Connection son=ConnectionProvider.getCon();
 	Statement st=con.createStatement();
+<<<<<<< HEAD
 	ResultSet rs=st.executeQuery("select *from users where email='"+email+"');
+=======
+	ResultSet rs=st.executeQuery("select *from users where email='"+email+"'");
+>>>>>>> Dinithi
 	while(rs.next())
 	{
 %>
@@ -89,5 +102,8 @@ System.out.println(e);
 </body>
 <br><br><br>
 <br>
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
 </html>

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <%@page import="project.ConnectionProvider" %>
@@ -6,6 +7,13 @@
 <%@include file="changeDetailsHeader.jsp" %>
 <%@include file="footer.jsp" %>
 >>>>>>> main
+=======
+<%@ page import="project.ConnectionProvider" %>
+
+<%@page import="java.sql.*" %>
+<%@include file="changeDetailsHeader.jsp" %>
+<%@include file="footer.jsp" %>
+>>>>>>> Dinithi
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -17,6 +25,7 @@ hr
 </head>
 <body>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <h3>Name: </h3>
 <hr>
@@ -26,6 +35,8 @@ hr
  <hr>
 <h3>Security Question: </h3>
 =======
+=======
+>>>>>>> Dinithi
 <%
 try
 {
@@ -42,14 +53,20 @@ while(rs.next())
  <h3>Mobile Number:  <%=rs.getString(3) %></h3>
  <hr>
 <h3>Security Question:  <%=rs.getString(4) %> </h3>
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
 <hr>
       <br>
       <br>
       <br>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> Dinithi
 <%
 }
 }
@@ -58,6 +75,9 @@ catch(Exception e)
 	System.out.println(e);
 }
 %>
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
 </body>
 </html>

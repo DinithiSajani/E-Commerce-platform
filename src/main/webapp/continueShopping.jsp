@@ -10,6 +10,11 @@
  ps.setString(1,status);
  ps.setString(2,email);
  ps.execiteUpdate();
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> Dinithi
  response.sendRedirect("home.jsp");
  }
  catch(Exception e)

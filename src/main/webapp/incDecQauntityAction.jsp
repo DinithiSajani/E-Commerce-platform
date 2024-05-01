@@ -19,9 +19,18 @@ price=rs.getInt(4);
 total=rs.getInt(5);
 quantity=rs.getInt(3);
 }
+<<<<<<< HEAD
 if(quantity== && incdec.equals("dec"))
   response.sendRedirect("myCart.jsp?msg=notPossible");
   else if (quantity !=1 && incdec.equals("dec"))
+=======
+if (quantity == someValue && incdec.equals("dec")) {
+    // Code to execute if quantity is equal to someValue and incdec is equal to "dec"
+}
+
+  response.sendRedirect("myCart.jsp?msg=notPossible");
+   if (quantity !=1 && incdec.equals("dec"))
+>>>>>>> Dinithi
   {
     total=total-price;
     quantity=quantity-1;

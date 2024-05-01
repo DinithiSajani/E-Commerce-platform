@@ -1,10 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> Dinithi
 <%@page import="project.ConnectionProvider"%>
 <%@page import="java.sql.*" %>
 <%@include file="header.jsp" %>
 <%@include file="footer.jsp" %>
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -20,6 +26,7 @@ h3
 </head>
 <body>
 <div style="color: white; text-align: center; font-size: 30px;">My Cart <i class='fas fa-cart-arrow-down'></i></div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <h3 class="alert">There is only one Quantity! So click on remove!</h3>
@@ -37,6 +44,8 @@ h3
             <th scope="col" style="background-color: yellow;">Total: <i class="fa fa-inr"></i> </th>
             <th scope="col"><a href="">Proceed to order</a></th>
 =======
+=======
+>>>>>>> Dinithi
 <% 
 String msg=request.getParameter("msg");
 if("notPossible".equal(msg))
@@ -80,7 +89,10 @@ try
           <tr>
             <th scope="col" style="background-color: yellow;">Total: <%out.println(total); %> <i class="fa fa-inr"></i> </th>
             <%if(total>0){ %>th scope="col"><a href="addressPaymentForOrder.jsp">Proceed to order</a></th><%} %>
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
           </tr>
         </thead>
         <thead>
@@ -96,6 +108,7 @@ try
         </thead>
         <tbody>
 <<<<<<< HEAD
+<<<<<<< HEAD
       
           <tr>
 
@@ -109,6 +122,8 @@ try
           </tr>
 
 =======
+=======
+>>>>>>> Dinithi
      <%
      ResultSet rs=st.executeQuery("select *from product inner join cart on product.id=cart.product_id and cart.email='"+email+"' and cart.address is NULL");
      while(rs.next())
@@ -116,7 +131,11 @@ try
      %> 
           <tr>
 <%sno=sno+1;  %>
+<<<<<<< HEAD
            <td><%out.printlin(sno;) %></td>
+=======
+         <td><%= sno %></td>
+>>>>>>> Dinithi
             <td><%=rs.getString(2) %></td>
             <td><%=rs.getString(3) %></td>
             <td><i class="fa fa-inr"></i> <%=rs.getString(2) %></td>
@@ -131,7 +150,10 @@ try
 catch(Exception e)
 {}
 %>
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
         </tbody>
       </table>
       <br>

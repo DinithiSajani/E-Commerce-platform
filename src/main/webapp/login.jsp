@@ -9,6 +9,7 @@
 <div id='container'>
   <div class='signup'>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <form action="loginAction.jsp" method="post">
   <input type="email" name="email" placeholder="Enter Email" required>
    <input type="password" name="password" placeholder="Enter Password" required>
@@ -31,6 +32,8 @@
 <h1>Some thing Went Wrong! Try Again !</h1>
 <%} %>
 =======
+=======
+>>>>>>> Dinithi
      
       <h2><a href="">SignUp</a></h2>
        <h2><a href="">Forgot Password?</a></h2>
@@ -40,7 +43,10 @@
 
 <h1>Some thing Went Wrong! Try Again !</h1>
 
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Dinithi
     <h2>Online Shopping</h2>
     <p>The Online Shopping System is the application that allows the users to shop online without going to the shops to buy them.</p>
   </div>
