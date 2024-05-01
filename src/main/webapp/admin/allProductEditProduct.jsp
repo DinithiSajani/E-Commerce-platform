@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-<%@page import="Project.ConnectionProvider"%>
-<%@page import="java.sql.*"%>
-<%@include file="adminHeader.jsp" %>
-<%@include file="../footer.jsp" %>
-=======
 
->>>>>>> main
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -21,28 +14,11 @@ h3
 </head>
 <body>
 <div style="color: white; text-align: center; font-size: 30px;">All Products & Edit Products <i class='fab fa-elementor'></i></div>
-<<<<<<< HEAD
-<%
-String msg=request.getParameter("msg");
-if("done".equals(msg))
-{
-%>
-<h3 class="alert">Product Successfully Updated!</h3>
-<%}%>
-<%
-
-if("wrong".equals(msg))
-{
-%>
-<h3 class="alert">Some thing went wrong! Try again!</h3>
-<%} %>
-=======
 
 <h3 class="alert">Product Successfully Updated!</h3>
 
 <h3 class="alert">Some thing went wrong! Try again!</h3>
 
->>>>>>> main
 <table>
         <thead>
           <tr>
@@ -55,34 +31,6 @@ if("wrong".equals(msg))
           </tr>
         </thead>
         <tbody>
-<<<<<<< HEAD
-       <%
-       try{
-    	   Connection con=ConnectionProvider.getCon();
-    	   Statement st=con.createStatement();
-    	   ResultSet rs=st.executeQuery("select *from product");
-    	   while(rs.next())
-    	   {
-       
-       %>
-          <tr>
-            <td><%=rs.getString(1) %></td>
-            <td><%=rs.getString(2) %></td>
-            <td><%=rs.getString(3) %></td>
-            <td><i class="fa fa-inr"></i> </i><%=rs.getString(4) %></td>
-            <td><%=rs.getString(5) %></td>
-            <td><a href="editProduct.jsp?id=<%=rs.getString()">Edit <i class='fas fa-pen-fancy'></i></a></td>
-          </tr>
-         <%
-    	   }
-       }
-       catch(Exception e)
-       {
-    	   System.out.println(e);
-       }
-         
-         %>
-=======
        
           <tr>
             <td></td>
@@ -93,7 +41,6 @@ if("wrong".equals(msg))
             <td><a href="">Edit <i class='fas fa-pen-fancy'></i></a></td>
           </tr>
          
->>>>>>> main
         </tbody>
       </table>
       <br>
