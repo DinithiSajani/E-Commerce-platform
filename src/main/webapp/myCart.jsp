@@ -81,7 +81,7 @@ try
      %> 
           <tr>
 <%sno=sno+1;  %>
-           <td><%out.printlin(sno;) %></td>
+         <td><%= sno %></td>
             <td><%=rs.getString(2) %></td>
             <td><%=rs.getString(3) %></td>
             <td><i class="fa fa-inr"></i> <%=rs.getString(2) %></td>

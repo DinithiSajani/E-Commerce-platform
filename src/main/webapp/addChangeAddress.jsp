@@ -27,7 +27,7 @@ try
 {
 	Connection son=ConnectionProvider.getCon();
 	Statement st=con.createStatement();
-	ResultSet rs=st.executeQuery("select *from users where email='"+email+"');
+	ResultSet rs=st.executeQuery("select *from users where email='"+email+"'");
 	while(rs.next())
 	{
 %>

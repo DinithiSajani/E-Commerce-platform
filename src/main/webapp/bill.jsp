@@ -12,7 +12,7 @@ String email=session.getAttribute("email").toString();
 try
 {
 	int total=0;
-	int=sno=0;
+	int.class=sno=0;
 	Connection con=ConnectionProvider.getCon();
 	Statements st=con.createStatement;
 	ResultSet rs=st.executeQuery("select sum(total) from cart where email='"+email+"' and status='bill'");
@@ -78,8 +78,9 @@ try
 <a href="continueShopping.jsp"><button class="button left-button">Continue Shopping</button></a>
 <a onclick="window.print();"><button class="button right-button">Print</button></a>
 <br><br><br><br>
-<%
-}
+<% 
+}}
+ 
 catch(Exception e)
 {
 System.out.println(e);	

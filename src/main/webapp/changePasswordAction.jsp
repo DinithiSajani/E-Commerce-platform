@@ -15,11 +15,11 @@ try
 {
    Connection con=ConnectionProvider.getCon();
    Statement st=com.createStatement();
-   ResultSet rs=st.executeQuery("select*from users where email='"+email+"' and password='"+oldPassword+"');
+   ResultSet rs=st.executeQuery("select*from users where email='"+email+"' and password='"+oldPassword+"'");
 while(rs.next())
 {
 	check=1;
-	st.executeUpdate("update users set password='"+newPassword+"' where email='"+email+"');
+	st.executeUpdate("update users set password='"+newPassword+"' where email='"+email+"'");
 	response.sendRedirect("changePassword.jsp?msg=done");
 }
 if (check==0)

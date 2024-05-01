@@ -1,5 +1,13 @@
 <%@page import="project.ConnectionProvider" %>
 <%@page import="java.sql.* %>
+<%@ page import="java.sql.Connection" %>
+<%@ page import="java.sql.PreparedStatement" %>
+
+<%@ page import="java.sql.Statement" %>
+
+
+
+
 <%
 String email=session.getAttribute("email").toString();
 String address=request.getParameter("adress");
@@ -15,7 +23,7 @@ String status="bill";
 try
 {
 Connection con=ConnectionProvider.getCon();
-PreparedStatement ps=con.prepareStatement("update users set address=?,state=?,country=?,mobileNumber=?,where email=?")
+PreparedStatement ps=con.prepareStatement("update users set address=?,state=?,country=?,mobileNumber=?,where email=?");
 ps.setString(1,address);
 ps.setString(2,city);
 ps.setString(3,state);

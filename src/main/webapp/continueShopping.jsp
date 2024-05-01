@@ -10,6 +10,8 @@
  ps.setString(1,status);
  ps.setString(2,email);
  ps.execiteUpdate();
+
+
  response.sendRedirect("home.jsp");
  }
  catch(Exception e)
