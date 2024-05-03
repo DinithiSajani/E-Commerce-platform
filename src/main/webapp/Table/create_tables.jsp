@@ -1,2 +1,0 @@
-<%@page import="project.ConnectionProvider"%>
-
