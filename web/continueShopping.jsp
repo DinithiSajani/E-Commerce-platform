@@ -1,17 +1,18 @@
-<%-- 
-    Document   : continueShopping
-    Created on : May 4, 2024, 6:02:13 PM
-    Author     : Mihisara
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
-</html>
+<%@page import="project.ConnectionProvider" %>
+<%@page import="java.sql.*" %>
+<%
+String email=session.getAttribute("email").toString();
+String status="processing";
+try{
+	ConnectionProvider conProvider =new ConnectionProvider();
+	Connection con=conProvider.getCon();
+	PreparedStatement ps=con.prepareStatement("update cart set status=? where email=? and status='bill'");
+	ps.setString(1, status);
+	ps.setString(2, email);
+	ps.executeUpdate();
+	response.sendRedirect("home.jsp");
+}catch(Exception e)
+{
+	System.out.println(e);
+	}
+%>
