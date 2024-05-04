@@ -1,17 +1,21 @@
-<%-- 
-    Document   : messageUsAction
-    Created on : May 4, 2024, 7:42:51 PM
-    Author     : HP
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
-</html>
+<%@page import="project.ConnectionProvider" %>
+<%@page import="java.sql.*" %>
+<% 
+String email=session.getAttribute("email").toString();
+String subject=request.getParameter("subject");
+String body=request.getParameter("body");
+try{
+	ConnectionProvider conProvider =new ConnectionProvider();
+	Connection con=conProvider.getCon();
+	PreparedStatement ps=con.prepareStatement("insert into message(email,subject,body) values(?,?,?)");
+	ps.setString(1, email);
+	ps.setString(2, subject);
+	ps.setString(3, body);
+	ps.executeUpdate();
+	response.sendRedirect("messageUs.jsp?msg=valid");
+	
+}catch(Exception e){
+	System.out.println(e);
+	response.sendRedirect("messageUs.jsp?msg=invalid");
+        }
+%>
