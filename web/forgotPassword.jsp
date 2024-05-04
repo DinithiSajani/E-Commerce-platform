@@ -22,10 +22,21 @@
          </form>
          <h2><a href="login.jsp">Login</a></h2>
      </div>
-     <div class='whyforgotPassword'>
-         
-             
-     
-              </body>
+     <div class='whyforgotPassword'> 
+        <% 
+   String msg=request.getParameter("msg");
+   if("done".equals(msg)){
+   %>
+<h1>Password Changed Successfully!</h1>
+<%} %>
+<%
+if("invalid".equals(msg)){
+%>
+<h1>Some thing Went Wrong! Try Again !</h1>
+<%}/*created and designed by AD Singh -- downloaded from http://projects.adsingh.net/*/ %>
+    <h2>Ecommerce website</h2>
+     </div>
+    </div>
+  </body>
 </html>
 
