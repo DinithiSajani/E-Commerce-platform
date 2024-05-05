@@ -4,7 +4,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<link rel="icon" href="C:\Users\risin\Downloads" type="JPG File (.jpg)" sizes="20x20">
+<link rel="icon" href="HeartFeltHublogo.png" type="image/png" sizes="1920x1080">
 <link rel="stylesheet" href="css/addressPaymentForOrder-style.css">
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <title>Home</title>
