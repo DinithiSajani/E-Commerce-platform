@@ -18,3 +18,45 @@ body {
     padding-top: 20px;
     padding-right: 20px;
 }
+.whysignLogIn
+{
+    float: left;
+    background-color: white;
+    width: 480px;
+    height: 374px;
+    border-radius: 0 5px 5px 0;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.whyforgotPassword
+{
+    float: left;
+    background-color: white;
+    width: 480px;
+    height: 470px;
+    border-radius: 0 5px 5px 0;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.signup {
+    float: left;
+    width: 300px;
+    padding: 30px 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+}
+
+
+[type=text],[type=email],[type=number],[type=password],select,option {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    height: 45px;
+    line-height: 45px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: black;
+}
