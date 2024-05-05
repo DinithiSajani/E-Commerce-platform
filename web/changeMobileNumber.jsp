@@ -1,17 +1,41 @@
 <%-- 
     Document   : changeMobileNumber
     Created on : May 5, 2024, 5:52:22 PM
-    Author     : REDTECH
+    Author     : SHENALI
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
+<%@page import="project.ConnectionProvider" %>
+<%@page import="java.sql.*" %>
+<%@include file="changeDetailsHeader.jsp" %>
+<%@include file="footer.jsp" %>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
+<head><link rel="icon" href="dsfsdv.png" type="image/png" sizes="20x20">
+<link rel="stylesheet" href="css/changeDetails.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<title>Change Mobile Number</title>
+</head>
+<body>
+<%
+String msg=request.getParameter("msg");
+if("done".equals(msg)){
+%>
+
+<h3 class="alert">Your Mobile Number successfully changed!</h3>
+<%} %>
+<%
+if("wrong".equals(msg)){
+%>
+<h3 class="alert">Your Password is wrong!</h3>
+<%} %>
+<form action="changeMobileNumberAction.jsp" method="post">
+ <h3>Enter Your New Mobile Number</h3>
+ <input class="input-style" type="number" name="mobileNumber" placeholder="Enter Your New Mobile Number" required>
+ <hr>
+<h3>Enter Password (For Security)</h3>
+<input class="input-style" type="password" name="password" placeholder="Enter Password(For Security)" required>
+<hr>
+ <button class="button" type="submit">Save <i class='far fa-arrow-alt-circle-right'></i></button>
+</form>
+</body>
+<br><br><br>
 </html>
