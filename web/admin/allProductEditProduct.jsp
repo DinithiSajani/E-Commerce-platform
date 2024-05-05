@@ -24,5 +24,54 @@ if("done".equals(msg))
 %>
 <h3 class="alert">Product Successfully Updated!</h3>
 <%} %>
-    </body>
+<%
+
+if("wrong".equals(msg))
+{
+%>
+<h3 class="alert">Some thing went wrong! Try again!</h3>
+<%} %>
+    <table>
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Category</th>
+            <th scope="col"><i class="fa fa-inr"></i> Price</th>
+            <th>Status</th>
+            <th scope="col">Edit <i class='fas fa-pen-fancy'></i></th>
+          </tr>
+        </thead>
+        <tbody>
+        <%
+        try{
+        	ConnectionProvider conProvider =new ConnectionProvider();
+        	Connection con=conProvider.getCon();
+        	Statement st=con.createStatement();
+        	ResultSet rs=st.executeQuery("select * from product");
+        	while(rs.next()){
+        
+        %>
+       
+          <tr>
+            <td><%=rs.getString(1) %></td>
+            <td><%=rs.getString(2) %></td>
+            <td><%=rs.getString(3) %></td>
+            <td><i class="fa fa-inr"></i> <%=rs.getString(4) %></td>
+            <td><%=rs.getString(5) %></td>
+            <td><a href="editProduct.jsp?id=<%=rs.getString(1) %>">Edit <i class='fas fa-pen-fancy'></i></a></td>
+          </tr>
+         <%
+        	}
+        }catch(Exception e){
+        	System.out.println(e);
+        }
+         %>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <br>
+
+</body>
 </html>
