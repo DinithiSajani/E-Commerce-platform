@@ -2,7 +2,7 @@
 <html>
     <head>
     <link rel="stylesheet" href="css/signup-style.css">
-    <link rel="icon" href="" type="" sizes=""><!-- comment -->
+     <link rel="icon" href="logo.png" type="image/png" sizes="20x20"><!-- comment -->
     <title>Signup</title><!-- <!-- comment --> -->
 </head>
 <body>
