@@ -19,3 +19,13 @@
             <th scope="col">Product Name</th>
             <th scope="col">Quantity</th>
             <th scope="col"><i class="fa fa-inr"></i> Sub Total</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Country</th>
+            <th scope="col">Order Date</th>
+            <th scope="col">Expected Delivery Date</th>
+            <th scope="col">Payment Method</th>
+            <th scope="col">T-ID</th>
+            <th scope="col">Status</th>
+    </tr>
