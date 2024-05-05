@@ -8,4 +8,11 @@
         <link rel="stylesheet" href="../css/addNewProduct-style.css"><!-- comment -->
         <title>Add New Product</title>
     </head>
+    <body>
+        <%
+            String msg=request.getParameter("msg");
+            if("done".equals(msg)) {
+            %>
+            }
+    </body>
 </html>
