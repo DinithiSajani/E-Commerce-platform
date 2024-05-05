@@ -31,8 +31,8 @@ try{
 	}
 %>
           <tr>
-          <th scope="col"><a href="myCart.jsp"><i class="heart felt hub"> Back</i></a></th>
-            <th scope="col" style="background-color: blue;">Total: <i class="heart felt hub"></i> <%out.println(total); %></th>
+          <th scope="col"><a href="myCart.jsp"><i class="heart felt hub-left"> Back</i></a></th>
+            <th scope="col" style="background-color: yellow;">Total: <i class="heart felt hub-inr"></i> <%out.println(total); %></th>
           </tr>
         </thead>
         <thead>
@@ -40,7 +40,7 @@ try{
           <th scope="col">S.No</th>
             <th scope="col">Product Name</th>
             <th scope="col">Category</th>
-            <th scope="col"><i class="heart felt hub"></i> price</th>
+            <th scope="col"><i class="heart felt hub-inr"></i> price</th>
             <th scope="col">Quantity</th>
             <th scope="col">Sub Total</th>
           </tr>
@@ -57,7 +57,7 @@ try{
             <td><%=rs.getString(3) %></td>
             <td><i class="fa fa-inr"></i> <%=rs.getString(4) %></td>
             <td> <%=rs.getString(8) %></td>
-            <td><i class="fa fa-inr"></i> <%=rs.getString(10) %></td>
+            <td><i class="heart felt hub-inr"></i> <%=rs.getString(10) %></td>
             </tr>
          <%}
      ResultSet rs2=st.executeQuery("select * from users where email='"+email+"'");
@@ -89,8 +89,8 @@ try{
 <h3>Enter country</h3>
 <input class="input-style" type="text" name="country" value="<%=rs2.getString(10)%>" placeholder="Enter Country" required>
 </div>
-<h3 style="color: yellow">*If there is no address its mean that you did not set you address!</h3>
-<h3 style="color: yellow">*This address will also updated to your profile</h3>
+<h3 style="color: red">*If there is no address its mean that you did not set you address!</h3>
+<h3 style="color: red">*This address will also updated to your profile</h3>
 <hr style="width: 100%">
 <div class="left-div">
 <h3>Select way of Payment</h3>
@@ -101,21 +101,21 @@ try{
 </div>
 
 <div class="right-div">
-<h3>Pay online </h3>
+<h3>Pay online</h3>
 <input class="input-style" type="text" name="transactionId" placeholder="Enter Transaction ID">
-<h3 style="color: yellow">*If you select online Payment then enter you transaction ID here otherwise leave this blank</h3>
+<h3 style="color: red">*If you select online Payment then enter you transaction ID here otherwise leave this blank</h3>
 </div>
 <hr style="width: 100%">
 
 <div class="left-div">
 <h3>Mobile Number</h3>
 <input class="input-style" type="text" name="mobileNumber" value="<%=rs2.getString(3)%>" placeholder="Enter Mobile Number" required>
-<h3 style="color: yellow">*This mobile number will also updated to your profile</h3>
+<h3 style="color: red">*This mobile number will also updated to your profile</h3>
 </div>
 <div class="right-div">
-<h3 style="color: yellow">*If you enter wrong transaction id then your order will we can cancel!</h3>
+<h3 style="color: red">*If you enter wrong transaction id then your order will we can cancel!</h3>
 <button class="button" type="submit">Proceed to generate bill & save <i class="heart felt hub"></i></button>
-<h3 style="color: yellow">*Fill form correctly</h3>
+<h3 style="color: red">*Fill form correctly</h3>
 </div>
 </form>
 <%
