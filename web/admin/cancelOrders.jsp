@@ -5,7 +5,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="../css/ordersReceived-style.css">
-<title>Home</title>
+<title>Cancel Orders</title>
 <style>
 .th-style
 { width: 25%;}
