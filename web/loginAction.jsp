@@ -1,17 +1,40 @@
-<%-- 
-    Document   : loginAction
-    Created on : May 5, 2024, 9:14:41 PM
-    Author     : Mihisara
---%>
+<%@page import="project.ConnectionProvider" %>
+<%@page import="project.shoppingUtil" %>
+<%@page import="java.sql.*" %>
+<%
+String email=request.getParameter("email");
+String password=request.getParameter("password");
+shoppingUtil sUtil=new shoppingUtil();
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
-</html>
+
+
+if(sUtil.getAdminUser().equals(email) && sUtil.getAdminPassword().equals(password))
+{
+session.setAttribute("email", email);
+response.sendRedirect("admin/adminHome.jsp");
+}
+else
+{
+int z=0;
+try{
+	ConnectionProvider conProvider = new ConnectionProvider();
+	Connection con=conProvider.getCon();
+	Statement st=con.createStatement();
+	ResultSet rs=st.executeQuery("select * from users where email='"+email+"' and password='"+password+"'");
+	while(rs.next())
+	{
+		z=1;
+		session.setAttribute("email", email);
+		response.sendRedirect("home.jsp");
+	}
+	if(z==0)
+		response.sendRedirect("login.jsp?msg=notexist");
+	
+}catch(Exception e)
+{
+	System.out.println(e);
+	response.sendRedirect("login.jsp?msg=invalid");
+	}
+
+}
+%>
