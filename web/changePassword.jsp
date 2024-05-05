@@ -3,7 +3,7 @@
 <%@include file="changeDetailsHeader.jsp" %>
 <%@include file="footer.jsp" %>
 <html>
-    <head><link rel="icon" href="C:\Users\risin\Downloads" type="JPG File (.jpg)" sizes="20x20">
+    <head><link rel="icon" href="HeartFeltHublogo.png" type="image/png" sizes="1920×1080">
     <link rel="Stylesheet" href="css/changeDetails.css">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <title>Message Us</title>
