@@ -13,3 +13,9 @@
 </head>
 <body>
 <div style="color: white; text-align: center; font-size: 30px;">Cancel Orders <i class='fas fa-window-close'></i></div>
+<table id="customers">
+    <tr>
+            <th>Mobile Number</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Quantity</th>
+            <th scope="col"><i class="fa fa-inr"></i> Sub Total</th>
