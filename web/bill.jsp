@@ -55,7 +55,6 @@
 <%
 break;}%>
 
-	
 	<br>
 	
 <table id="customers">
@@ -66,7 +65,7 @@ break;}%>
     <th>category</th>
     <th>Price</th>
     <th>Quantity</th>
-     <th>Sub Total</th>
+    <th>Sub Total</th>
   </tr>
   <%
   ResultSet rs1=st.executeQuery("select * from cart inner join product where cart.product_id=product.id and cart.email='"+email+"' and cart.status='bill'");
@@ -80,7 +79,7 @@ break;}%>
     <td><%=rs1.getString(18) %></td>
     <td><%=rs1.getString(19) %></td>
     <td><%=rs1.getString(3) %></td>
-     <td><%=rs1.getString(5) %></td>
+    <td><%=rs1.getString(5) %></td>
   </tr>
   <tr>
 <%} %>
