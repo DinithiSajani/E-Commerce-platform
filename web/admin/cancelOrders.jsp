@@ -10,3 +10,6 @@
 .th-style
 { width: 25%;}
 </style>
+</head>
+<body>
+<div style="color: white; text-align: center; font-size: 30px;">Cancel Orders <i class='fas fa-window-close'></i></div>
