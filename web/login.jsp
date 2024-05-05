@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="icon" href="" type="" sizes=""><!-- comment -->
+        <link rel="icon" href="logo.png" type="image/png" sizes="20x20"><!-- comment -->
         <link rel="stylesheet" href="css/signup-style.css"><!-- comment -->
         <title>Login</title>
     </head><!-- comment -->
