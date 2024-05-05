@@ -33,6 +33,40 @@
               <th scope="col">T-ID</th>
               <th scope="col">Status</th>
           </tr>
+          
+          <%
+              try{
+    	   ConnectionProvider conProvider =new ConnectionProvider();
+    		Connection con=conProvider.getCon();
+    	   Statement st=con.createStatement();
+    	   ResultSet rs=st.executeQuery("select * from cart inner join product where cart.product_id=product.id and cart.orderDate is not NULL and cart.status='Delivered'");
+    	   while(rs.next()){
+       
+       %> 
+        <tr>
+          <td><%=rs.getString(10) %></td>
+            <td><%=rs.getString(17) %></td>
+            <td><%=rs.getString(3) %></td>
+            <td><i class="fa fa-inr"></i>  <%=rs.getString(5) %></td>
+                <td><%=rs.getString(6) %></td>
+               <td><%=rs.getString(7) %></td>
+                <td><%=rs.getString(8) %></td>
+                 <td><%=rs.getString(9) %></td>
+             <td><%=rs.getString(11) %></td>
+              <td><%=rs.getString(12) %></td>
+               <td><%=rs.getString(13) %></td>
+               <td><%=rs.getString(14) %></td>
+               <td><%=rs.getString(15) %></td>
+              </tr>
+         <%}
+       }catch(Exception e){
+    	   System.out.println(e);
+       }
+       %>
         </table>
-    </body>
+      <br>
+      <br>
+      <br>
+
+</body>
 </html>
