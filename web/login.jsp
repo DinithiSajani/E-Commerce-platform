@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -16,8 +17,23 @@
                 <h2><a href="signup.jsp">SignUp</a></h2>
                 <h2><a href="forgotPassword.jsp">Forgot Password?</a></h2>
             </div>
-            
+            <div class='whysignLogin'>
+                <%
+                    
+                    String msg=request.getParameter("msg");
+                    if("noteexist".equals(msg)) {
+                    %>
+                    <h1>Incorrect Username or Password</h1><!-- comment -->
+                    <%} %>
+                    <%
+if("invalid".equals(msg)){
+                    %>
+                    <h1>Some thing Went wrong! Try Again!</h1><!-- comment -->
+                    <% } %>
+                    <h2>ECommerce website</h2><!-- comment -->
+                     
+            </div>
         </div>
     </body>
-              </head>
+             
 </html>
