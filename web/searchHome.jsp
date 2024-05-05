@@ -4,7 +4,7 @@
 <%@include file="footer" %>
 <html>
 <head>
-<link rel="icon" href="" type="" sizes="">
+ <link rel="icon" href="logo.png" type="image/png" sizes="20x20"><!-- comment -->
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Home</title>
 </head>
