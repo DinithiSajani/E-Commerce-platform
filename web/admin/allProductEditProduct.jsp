@@ -32,4 +32,15 @@ if("wrong".equals(msg))
 <h3 class="alert">Some thing went wrong! Try again!</h3>
 <%} %>
 <table>
+    <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Category</th>
+            <th scope="col"><i class="fa fa-inr"></i> Price</th>
+            <th>Status</th>
+            <th scope="col">Edit <i class='fas fa-pen-fancy'></i></th>
+          </tr>
+        </thead>
+        <tbody>
     
