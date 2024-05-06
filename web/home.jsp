@@ -21,3 +21,6 @@
 String msg=request.getParameter("msg");
 if("added".equals(msg)){
 %>
+<h3 class="alert">Product added successfully!</h3>
+<%} %>
+<%
