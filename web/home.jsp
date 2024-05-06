@@ -63,3 +63,6 @@ if("invalid".equals(msg)){
             <td><a href="addToCartAction.jsp?id=<%=rs.getString(1) %>">Add to cart <i class='fas fa-cart-plus'></i></a></td>
           </tr>
 <%
+    }
+}catch(Exception e){
+	System.out.println(e);}
