@@ -9,3 +9,9 @@ int total=0;
 int quantity=0;
 int final_total=0;
 try{
+ConnectionProvider conProvider =new ConnectionProvider();
+	Connection con=conProvider.getCon();
+	Statement st=con.createStatement();
+	ResultSet rs=st.executeQuery("select * from cart where email='"+email+"' and product_id='"+id+"' and address is NULL");
+	while(rs.next()){
+    }
