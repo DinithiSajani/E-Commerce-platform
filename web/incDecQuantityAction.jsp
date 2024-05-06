@@ -31,5 +31,6 @@ ConnectionProvider conProvider =new ConnectionProvider();
 		quantity=quantity+1;
 		st.executeUpdate("update cart set total='"+total+"',quantity='"+quantity+"' where email='"+email+"' and product_id='"+id+"' and address is NULL");
 		response.sendRedirect("myCart.jsp?msg=inc");
-	}
+	}}catch(Exception e){
+	System.out.println(e);
     }
