@@ -71,4 +71,7 @@ if("wrong".equals(msg))
       <br>
       <br>
       <br>
+ 
+</body>
+</html>     
        
