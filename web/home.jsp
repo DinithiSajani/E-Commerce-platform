@@ -16,3 +16,8 @@
 </style>
 </head>
 <body>
+<div style="color: white; text-align: center; font-size: 30px;">Home <i class="fa fa-institution"></i></div>
+<%
+String msg=request.getParameter("msg");
+if("added".equals(msg)){
+%>
