@@ -22,4 +22,14 @@ String msg=request.getParameter("msg");
 if("done".equals(msg))
 {
 %>   
+<h3 class="alert">Product Successfully Updated!</h3>
+<%} %>
+<%
+
+if("wrong".equals(msg))
+{
+%>
+<h3 class="alert">Some thing went wrong! Try again!</h3>
+<%} %>
+<table>
     
