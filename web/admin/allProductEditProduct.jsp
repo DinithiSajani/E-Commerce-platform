@@ -60,4 +60,10 @@ if("wrong".equals(msg))
             <td><%=rs.getString(5) %></td>
             <td><a href="editProduct.jsp?id=<%=rs.getString(1) %>">Edit <i class='fas fa-pen-fancy'></i></a></td>
           </tr>
+         <%
+        	}
+        }catch(Exception e){
+        	System.out.println(e);
+        }
+         %>
        
