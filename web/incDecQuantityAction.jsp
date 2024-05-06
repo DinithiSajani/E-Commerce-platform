@@ -18,4 +18,5 @@ ConnectionProvider conProvider =new ConnectionProvider();
 		total=rs.getInt(5);
 		quantity=rs.getInt(3);
 	}
-    
+        if(quantity==1 && incdec.equals("dec"))
+		response.sendRedirect("myCart.jsp?msg=notPossible");
