@@ -5,7 +5,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<link rel="icon" href="dsfsdv.png" type="image/png" sizes="20x20">
+<link rel="icon" href="" type="" sizes="">
 <title>Home</title>
 <style>
     h3
