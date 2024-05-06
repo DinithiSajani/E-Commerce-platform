@@ -8,3 +8,8 @@
 <link rel="icon" href="dsfsdv.png" type="image/png" sizes="20x20">
 <title>Home</title>
 <style>
+    h3
+{
+	color: yellow;
+	text-align: center;
+}
