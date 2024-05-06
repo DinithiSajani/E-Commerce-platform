@@ -65,4 +65,6 @@ if("invalid".equals(msg)){
 <%
     }
 }catch(Exception e){
-	System.out.println(e);}
+	System.out.println(e);}%>
+ </tbody>
+      </table> 
