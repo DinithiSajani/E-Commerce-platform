@@ -13,5 +13,13 @@
 	color: yellow;
 	text-align: center;
 }
-    
+ </style>
+</head>
+<body>
+<div style="color: white; text-align: center; font-size: 30px;">All Products & Edit Products <i class='fab fa-elementor'></i></div>
+<%
+String msg=request.getParameter("msg");
+if("done".equals(msg))
+{
+%>   
     
