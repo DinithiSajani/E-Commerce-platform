@@ -14,4 +14,8 @@ ConnectionProvider conProvider =new ConnectionProvider();
 	Statement st=con.createStatement();
 	ResultSet rs=st.executeQuery("select * from cart where email='"+email+"' and product_id='"+id+"' and address is NULL");
 	while(rs.next()){
-    }
+        price=rs.getInt(4);
+		total=rs.getInt(5);
+		quantity=rs.getInt(3);
+	}
+    
