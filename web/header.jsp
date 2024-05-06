@@ -1,17 +1,7 @@
-<%-- 
-    Document   : header
-    Created on : 6 May 2024, 13:24:59
-    Author     : Ashi
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page errorPage="error.jsp" %>
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
-</html>
+<link rel="icon" href="dsfsdv.png" type="image/png" sizes="20x20">
+<link rel="stylesheet" href="css/home-style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
