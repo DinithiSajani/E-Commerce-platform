@@ -24,3 +24,6 @@ if("added".equals(msg)){
 <h3 class="alert">Product added successfully!</h3>
 <%} %>
 <%
+    
+if("exist".equals(msg)){
+%>
