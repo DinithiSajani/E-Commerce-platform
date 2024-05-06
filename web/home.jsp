@@ -47,3 +47,11 @@ if("invalid".equals(msg)){
         </thead>
         <tbody>
 <%
+    try{
+	ConnectionProvider conProvider=new ConnectionProvider();
+	Connection con=conProvider.getCon();
+	Statement st=con.createStatement();
+	ResultSet rs=st.executeQuery("select * from product where active='Yes'");
+	while(rs.next()){
+
+%>
