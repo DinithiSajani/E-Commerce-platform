@@ -43,4 +43,13 @@ if("wrong".equals(msg))
           </tr>
         </thead>
         <tbody>
-    
+    <%
+        try{
+        	ConnectionProvider conProvider =new ConnectionProvider();
+        	Connection con=conProvider.getCon();
+        	Statement st=con.createStatement();
+        	ResultSet rs=st.executeQuery("select * from product");
+        	while(rs.next()){
+        
+        %>
+       
