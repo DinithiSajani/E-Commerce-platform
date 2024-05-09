@@ -9,7 +9,7 @@
     <!--Header-->
     <br>
     <div class="topnav sticky">
-        <%string email=session.getAttribute("email").toString();%>
+        <%String email=session.getAttribute("email").toString();%>
         <center><h2>Ecommerce website</h2></center>
         <h2><a href=""><%out.println(email); %> <i class='fas fa-user-alt'></i></a></h2>
         <a href="home.jsp">Home<i class="fa fa-institution"></i></a>
