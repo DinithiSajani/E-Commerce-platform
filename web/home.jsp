@@ -33,7 +33,7 @@ if("exist".equals(msg)){
 
 if("invalid".equals(msg)){
 %>
-<h3 class="alert">Something went wrong tryagain!</h3>
+<h3 class="alert">Something went wrong try again!</h3>
 <%} %>
 <table>
         <thead>
