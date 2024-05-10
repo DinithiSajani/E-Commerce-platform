@@ -2,8 +2,8 @@
 <html>
 <head>
 <link rel="stylesheet" href="css/signup-style.css">
-<link rel="icon" href="HeartFeltHublogo.png" type="image/png" sizes="1920x1080">
-<title>Signup</title>
+<link rel="icon" href="E:\Github\HFHUB\web\image\logo.png" type="image/jpg" sizes="1920×1080">
+<title>SignUp</title>
 </head>
 <body>
 <div id='container'>
@@ -41,7 +41,7 @@ if("invalid".equals(msg))
 <h1>Something Went Wrong! Try Again !</h1>
 <%}
   %>
-    <h2>HeartFelt Hub</h2>
+    <img src="image\logo.png" alt="" style=" height: 320px; width: 450px">
    
   </div>
 </div>
