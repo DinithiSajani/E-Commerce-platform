@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="icon" href="HeartFeltHublogo.png" type="image/png" sizes="1920×1080">
+        <link rel="icon" href="E:\Github\HFHUB\web\image\logo.png" type="image/jpg" sizes="1920×1080">
         <link rel="stylesheet" href="css/signup-style.css">
         <title>Login</title>
     </head>
@@ -30,7 +30,8 @@
                 %>
                 <h1>Some thing Went Wrong! Try Again !</h1>
                 <%}%>
-                <h2>HeartFeltHub</h2>
+               
+                <img src="image\logo.png" alt="" style=" height: 320px; width: 450px">
 
 
             </div>
