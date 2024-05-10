@@ -3,6 +3,7 @@
 <html>
     <head>
         <link rel="icon" href="E:\Github\HFHUB\web\image\logo.png" type="image/jpg" sizes="1920×1080">
+        <link rel="background" href="E:\Github\HFHUB\web\image\bg.jpg" type="image/jpg" sizes="1920×1080">
         <link rel="stylesheet" href="css/signup-style.css">
         <title>Login</title>
     </head>

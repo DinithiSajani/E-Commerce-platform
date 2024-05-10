@@ -1,18 +1,26 @@
-   body {
-  background-color: #606060;
-  font: 1em Helvetica;
+ body, html {
+    background-image: url('E:/Github/HFHUB/web/image/bg.jpg');
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
 }
+
 
 #container {
   width: 840px;
-  margin: 25px auto;
-  margin-top: 50px;
+  height: 500px; /* Adjust the height as needed */
+  align-self: center;
+    
 }
+
 
 .whysign {
   float: left;
-  background-color: white;
-  width: 480px;
+ background-color: #C5C5C5 ;
+ width: 480px;
   height: 528px;
   border-radius: 0 5px 5px 0;
   padding-top: 20px;
@@ -21,7 +29,7 @@
 .whysignLogin
 {
 	float: left;
-  background-color: white;
+
   width: 480px;
   height: 347px;
   border-radius: 0 5px 5px 0;
@@ -31,7 +39,7 @@
 .whyforgotPassword
 {
 	float: left;
-  background-color: white;
+
   width: 480px;
   height: 470px;
   border-radius: 0 5px 5px 0;
@@ -42,7 +50,7 @@
   float: left;
   width: 300px;
   padding: 30px 20px;
-  background-color: white;
+  background : linear-gradient(to Right, #eef2f3, #bdc7cf, #C5C5C5, #C5C5C5, #AEAEAE, #AEAEAE, #979797, #979797, #808080, #808080, #808080);
   text-align: center;
   border-radius: 5px 0 0 5px;
 }
